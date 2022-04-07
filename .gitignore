@@ -1,0 +1,10 @@
+**/*/*.log
+**/**/.DS_STORE
+**/**/token.yaml
+.sliced
+sliced
+.idea
+*_key
+*.pub
+*secrets.yaml
+*-secrets-dec*
