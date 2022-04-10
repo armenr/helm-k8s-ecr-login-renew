@@ -3,7 +3,7 @@
 Define resource names
 */}}
 {{- define "k8s-ecr-login-renew.namespace" }}
-{{- default (printf "%s-ns" .Release.Name) -}}
+{{- default (printf "%s-ns" .Release.Namespace) -}}
 {{- end }}
 
 {{- define "k8s-ecr-login-renew.serviceAccount" }}
